@@ -37,3 +37,19 @@ Write a Calculator class for food store (you can use any programming languages)
 - **React** (for the UI)
 - **JavaScript** (for the logic and calculations)
 - **React Testing Library** (for unit tests)
+
+
+## Code Structure
+
+### 1. `src/App.js`
+
+- Main component responsible for rendering the UI and handling state.
+- Calculates the total price and applies the discounts based on the user input.
+
+### 2. `src/DiscountUtils.js`
+
+- Contains helper functions for applying bundle discounts.
+
+### 4. `src/tests/FoodStoreCalculator.test.js`
+
+- Unit tests for verifying that the discount logic and UI rendering work correctly.
