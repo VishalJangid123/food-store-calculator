@@ -53,3 +53,43 @@ Write a Calculator class for food store (you can use any programming languages)
 ### 4. `src/tests/FoodStoreCalculator.test.js`
 
 - Unit tests for verifying that the discount logic and UI rendering work correctly.
+
+## Test Cases
+Visit the details of the test cases https://github.com/VishalJangid123/food-store-calculator/tree/main/src/tests
+### Latest test results
+![Screenshot 2567-12-16 at 22 04 17](https://github.com/user-attachments/assets/f8ddf3cf-e519-4a75-b7c8-2df992faea97)
+
+
+
+## Installation
+
+1. Clone this repository:
+    
+    ```bash
+    git clone https://github.com/VishalJangid123/food-store-calculator.git
+    cd food-store-calculator
+    ```
+    
+2. Install the dependencies:
+    
+    ```bash
+    npm install
+    ```
+    
+3. Start the development server:
+    
+    ```bash
+    npm start
+    ```
+    
+    This will open the app in your default browser. If not, navigate to http://localhost:3000.
+
+### Running Tests
+
+To run the unit tests for the application:
+
+```bash
+npm test
+```
+
+This will run all the test cases and give you feedback on whether they passed or failed.
