@@ -2,6 +2,9 @@
 
 This is a simple **React** application for calculating the total price of food orders in a store. The store offers a fixed menu with 7 different sets, and allow to apply discounts based on certain conditions. 
 
+## Live Demo
+Visit link for live demo : https://vishaljangid123.github.io/food-store-calculator/
+
 ## Problem Statement
 
 Write a Calculator class for food store (you can use any programming languages)
@@ -37,6 +40,14 @@ Write a Calculator class for food store (you can use any programming languages)
 - **React** (for the UI)
 - **JavaScript** (for the logic and calculations)
 - **React Testing Library** (for unit tests)
+- **Github Pages** (Deploy)
+
+
+## Screenshots
+
+|    |    |
+|------|------|
+|![Screenshot 2567-12-16 at 22 19 37](https://github.com/user-attachments/assets/a03644d1-44d1-4992-a965-463208f33a3b) |![Screenshot 2567-12-16 at 22 20 06](https://github.com/user-attachments/assets/cd20d37e-b351-4c1f-a166-8854dabbd0e6) |
 
 
 ## Code Structure
