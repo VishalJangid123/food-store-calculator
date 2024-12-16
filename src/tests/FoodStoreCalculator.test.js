@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import App from "./App";
+import App from "../App";
 
 const setOrder = (order) => {
   Object.keys(order).forEach((item) => {

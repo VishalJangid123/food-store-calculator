@@ -1,18 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function App() {
-  // Menu prices
-  const menuItems = {
-    Red: 50,
-    Green: 40,
-    Blue: 30,
-    Yellow: 50,
-    Pink: 80,
-    Purple: 90,
-    Orange: 120,
-  };
+import { menuItems } from './constants/MenuItems';
+import { applyBundleDiscount } from './Utils/DiscountUtils';
 
+function App() {
   const [orders, setOrders] = useState(getInitialOrderState());
   const [memberCard, setMemberCard] = useState(false);
   const [showBreakdown, setShowBreakdown] = useState(false);
@@ -35,15 +27,7 @@ function App() {
     });
   };
 
-  // Apply 5% discount for bundles (Orange, Pink, Green)
-  const applyBundleDiscount = (quantity, item) => {
-    if (quantity >= 2) {
-      const itemPrice = menuItems[item];
-      const discountPerPair = itemPrice * 0.05;
-      return discountPerPair * Math.floor(quantity / 2);
-    }
-    return 0;
-  };
+ 
 
   // Calculate the total price with applied discounts
   const calculateTotal = () => {
